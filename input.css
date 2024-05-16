@@ -1,1 +1,12 @@
-ÿþ
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url(./img/theCook.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+    color: pink;
+    text-shadow: 0 0 3px;
+}
